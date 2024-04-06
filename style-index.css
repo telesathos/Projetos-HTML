@@ -1,0 +1,155 @@
+:root { 
+    --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+}
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: "Raleway", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #000;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+button{
+    padding: 10px 40px;
+    font-size: 1.0rem;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .2s;
+}
+button:hover{
+    color: #A9806F;
+}
+
+/* estilo do cabeçalho */
+header{
+    padding: 20px 5%;
+}
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.0rem;
+    padding-bottom: 1.0rem;
+    font-family: "Raleway", sans-serif;
+    border-bottom: var(--border);
+}
+header a{
+    display: flex;
+    justify-items:flex-end; 
+    margin: 0 1rem;
+    font-size: 1.0rem;
+    color: #fff;
+    display: inline-block;
+    transition: .2s;
+}
+header a:hover{
+    color: #A9806F;
+    transform: scale(1.05);
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+header .btn-login button:hover{
+    box-shadow: 0px 0px 25px#868686;
+}
+/* estilo da página Inicial */
+section .pag-inicial{
+    padding: 40px 4%;
+}
+section.pag-inicial .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    min-height: 100vh;
+}
+.pag-inicial .incial-site h1{
+    color: #A9806F;
+    font-size: 50px;
+    align-items: 90px;
+    text-align-last: center;
+}
+.pag-inicial .incial-site h2{
+    color: white;
+    font-size: 65px;
+    height: 400;
+    text-align-last: center;
+}
+.pag-inicial .incial-site h2 span{
+    color: #A9806F;
+}
+.pag-inicial .incial-site p{
+    color: #A9806F;
+    margin: 25px 50px;
+    font-size: 20px;
+    text-wrap:balance;
+    text-align: justify;
+}
+.pag-inicial .img-inicial{
+    padding: 40px 8%;
+}
+/* estilo da página About */
+.title{
+    font-size: 2.5rem;
+    color: #A9806F;
+    text-align: center;
+    text-transform: uppercase;
+}
+.title span{
+    color: #fff;
+    text-transform: uppercase;
+}
+.about .conteudo{
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    gap: 0.1rem;
+}
+.about .content{
+    color: #A9806F;
+    align-items: center;
+    color: #A9806F;
+    margin: 50px 100px;
+    font-size: 20px;
+    text-align: justify;
+}
+.about .sobre-IMG{
+    display: flex;
+    align-items: center;
+    padding: 10px auto;
+}
+/* estilo da página MEET */
+.title-meet{
+    padding: 10px auto;
+    font-size: 2.5rem;
+    color: #A9806F;
+    text-align: center;
+    text-transform: uppercase;
+}
+.Encontros .conteudo{
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    gap: 0.1rem;
+}
+.Encontros .content{
+    color: #A9806F;
+    margin: 50px 100px;
+    font-size: 20px;
+    text-align: justify;
+}
